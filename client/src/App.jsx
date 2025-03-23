@@ -1,22 +1,19 @@
-
-import { Routes, Route } from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
+import React from "react"
 import Home from "./views/Home"
-import AboutMe from "./views/AboutMe"
-import Blog from "./views/Blog"
-import NavBar from "./views/NavBar"
-
+import NavBar from "./components/Navbar"
 import './App.css'
 
 function App() {
- 
+
 
   return (
     <>
-         <NavBar />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutMe" element={<AboutMe />} />
-        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/aboutMe" element={<AboutMe />} /> */}
+        {/* <Route path="/blog" element={<Blog />} /> */}
       </Routes>
     </>
   )
