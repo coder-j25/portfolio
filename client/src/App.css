@@ -7,12 +7,9 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 .logo{
 width: 40px;
 }
-
 .force-style{
 position: absolute;
 right: 30px;
@@ -23,14 +20,6 @@ position: absolute;
 right: 1px;
 top: 6px;
 }
-
 .skills{
-
   margin: -20px;
- 
-}
-
-.list{
-  padding-top: 10%;
-  font-size: 1em;
 }
