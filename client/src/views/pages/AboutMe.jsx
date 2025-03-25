@@ -15,7 +15,7 @@ const AboutMe = () => {
         },
   
       ];
-      const timelineSchoolData = [
+      const educationData = [
         {
           date: "February 2025- Current",
           title: "Coursera | UX/UI Design Certificate",
@@ -60,7 +60,7 @@ const AboutMe = () => {
     events={timelineData} />
     <Timeline 
     category="Education/Certification"e
-    events={timelineSchoolData} />
+    events={educationData} />
     
 </div>
     </>
