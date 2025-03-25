@@ -1,5 +1,5 @@
 
-
+import Introduction from "../components/Introduction"
 import React from "react"
 
 
@@ -10,8 +10,8 @@ const AboutMe = () => {
     return (
     <>
    
-<div className="flex mt-20 p-2 justify-between">
-<div className="leftside w1/2">
+<div className="mt-20 ml-16 mr-16 p-2">
+<div className="leftside">
  <img className="profilePic w1/2" src={new URL('../assets/profile-pics/profileWborder.jpg', import.meta.url).href} alt="profile-pic" />
 <div className="pt-6">
    
@@ -21,9 +21,11 @@ const AboutMe = () => {
 </div>
 </div>
 
-<div className="rightside w1/2">
-<h1>Introduction</h1>
-</div>
+<Introduction
+      title="Introduction"
+      description="Full Stack Developer skilled in end-to-end application development, agile teamwork, and cutting-edge technologies. 
+      Experienced in building feature-rich solutions with seamless functionality and engaging UI/UX design."
+    />
 </div>
     </>
 )}
