@@ -41,7 +41,8 @@ const AboutMe = () => {
     return (
     <>
    
-<div className="mt-20 ml-16 mr-16 p-2  ">
+<div className="mt-20 ml-16 mr-16 p-2  flex flex-row">
+  <div>
 <div className=" left-0 w-64 h-full bg-white-800 text-black">
  <img className="profilePic w1/2" src={new URL('../../assets/portfolio/aboutPic.png', import.meta.url).href} alt="profile-pic" />
 <div className="pt-6">
@@ -66,7 +67,8 @@ const AboutMe = () => {
   </div>
 </div>
 </div>
-
+</div>
+<div className="p-16">
 <Introduction
       title="Introduction"
       description="Full Stack Developer skilled in end-to-end application development, agile teamwork, and cutting-edge technologies. 
@@ -78,6 +80,7 @@ const AboutMe = () => {
     <Timeline 
     category="Education/Certification"e
     events={educationData} />
+    </div>
   </div>  
 
     </>

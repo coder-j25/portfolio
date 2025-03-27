@@ -4,7 +4,7 @@ import React from "react";
 
 const Timeline = ({ events , category}) => {
     return ( <>
-        <div className="ml-[340px] mr-[40px] pt-16">
+       
         <h2 className="text-2xl font-extrabold text-black dark:text-black pb-8">{category}</h2>
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         {events.map((event, index) => (
@@ -22,7 +22,7 @@ const Timeline = ({ events , category}) => {
           </li>
         ))}
       </ol>
-      </div>
+     
       </>
     );
   };
