@@ -57,7 +57,7 @@ const ContactForm = () => {
                         required />
                     <button
                         type="submit"
-                        className="bg-black text-black p-2 font-semibold "
+                        className="bg-white text-black border p-2 font-semibold "
                     >
                         Send 
                     </button>
