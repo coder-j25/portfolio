@@ -16,8 +16,13 @@ const Home = () => {
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">I like to problem solve and design solutions which leave an impact...<span><Link to="/aboutMe" className="introSpan">About Me</Link></span></p>
         
     </div>
+  
+    </div>
 </div>
 
+  <br/>
+    <div className="bg-gray-300 h-1/2">
+        <h1>Projects</h1>
 
 
 
