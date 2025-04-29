@@ -3,14 +3,13 @@ import { Link } from "react-router-dom"
 import Logo from "./logo"
 
 const Footer = () => {
+
     return (
         <>
             <footer className="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
                 <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                     <div className="sm:flex sm:items-center sm:justify-between">
-                       <Logo/>
-                          
-                           
+                        <Logo />
                         <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                             <li>
                                 <Link to="/aboutMe" className="introSpan pr-6 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700">About</Link>
@@ -25,7 +24,6 @@ const Footer = () => {
                         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 J Development™  . All Rights Reserved.
                         </span>
                         <div className="flex mt-4 sm:justify-center sm:mt-0">
-
                             <a href="https://www.linkedin.com/in/justinee-hanson-5a938134a/"
                                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
                                 target="_blank" rel="noopener noreferrer">
@@ -40,16 +38,12 @@ const Footer = () => {
                                 </svg>
                                 <span className="sr-only">GitHub account</span>
                             </a>
-
                         </div>
                     </div>
                 </div>
             </footer>
-
-
         </>
     )
 }
-
 
 export default Footer
