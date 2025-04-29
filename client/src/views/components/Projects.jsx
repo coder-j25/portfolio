@@ -16,7 +16,7 @@ const Projects = () => {
   }
 
   useEffect(() => {
-    handleResize()
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, [])
@@ -52,9 +52,9 @@ const Projects = () => {
       setIsTransitioning(false);
       setIndex(0);
     }
-  };
+  }
 
-  const totalFrames = [...frames, frames[0]]
+  const totalFrames = [...frames, frames[0]];
 
   return (
 
@@ -99,11 +99,17 @@ const Projects = () => {
             >
               <div className="main flex flex-col sm:flex-row w-full p-4 sm:p-8">
                 <div className="sub w-full sm:w-2/3 my-auto">
-                  <img
-                    className="w-full p-4 sm:p-8 max-h-[400px] object-contain"
-                    src={frame.img}
-                    alt={frame.title}
-                  />
+                  <a
+                    href={frame.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="w-full p-4 sm:p-8 max-h-[400px] object-contain cursor-pointer transition-transform duration-200 hover:scale-105"
+                      src={frame.img}
+                      alt={frame.title}
+                    />
+                  </a>
                 </div>
                 <div className="sub w-full sm:w-1/3 my-auto text-center sm:text-left">
                   <div className="head text-xl sm:text-3xl font-bold mb-4">
