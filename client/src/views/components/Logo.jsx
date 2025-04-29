@@ -1,7 +1,7 @@
 import React from "react"
 
-
 const Logo = () => {
+
     return (
         <>
             <div className="border-2 border-black pl-1 pr-3">

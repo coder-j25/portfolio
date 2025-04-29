@@ -1,12 +1,10 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
 
-
 const Contact = () => {
+
     return (
         <>
-
-
             <div className="mt-26 flex flex-col justify-center">
                 <div>
                     <h1 className="text-2xl font-extrabold text-black dark:text-black pb-8 text-center ">Contact Me</h1>
@@ -20,17 +18,11 @@ const Contact = () => {
                     </div>
                     <div className="bg-gray-300">
                         <ContactForm />
-                            </div>
+                    </div>
                 </div>
-
-            
             </div>
-
-
-
         </>
     )
 }
-
 
 export default Contact

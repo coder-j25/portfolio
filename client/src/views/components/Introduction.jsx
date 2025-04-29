@@ -1,6 +1,7 @@
 import React from "react";
 
 const Introduction = ({ title, description, className }) => {
+
     return (
    
         <div>
@@ -8,9 +9,8 @@ const Introduction = ({ title, description, className }) => {
           <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">
             {description}
           </p>
-        </div>
-      
-    );
-  };
+        </div>   
+    )
+  }
 
   export default Introduction
